@@ -1,0 +1,121 @@
+body {
+	background-image: url(../media/wood.jpg);
+	background-attachment:fixed;
+}
+
+.heropicture{
+	text-align:center;
+}
+.thumb{
+	max-width:300px;
+}
+.righty{
+	text-align: right;
+}
+.name{
+	background-color:rgba(224,224,224,.5) ;
+	border-radius: 15px;
+	padding:10px;
+	font-size:1em;
+}
+.message{
+	background-color:rgba(224,224,224,.5) ;
+	border-radius: 15px;
+	padding:10px;
+	font-size:.75em;
+}
+.comment{
+	margin: 10px;
+}
+.quiz{
+    width: 80%;
+    height: 100%;
+    left:10%;
+    right:10%;
+	padding:15px;
+	border-radius:10px;
+    background-color: rgba(120,120,120,.8);
+    position: absolute;
+    -webkit-animation-name: quizz_animation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: quizz_animation;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes quizz_animation {
+    0%   {left:-1000px; top:auto;}
+    100% {left:10%; right:10%;}
+}
+
+@keyframes quizz_animation {
+    0%   {left:-1000px; top:auto;}
+    100% {left:10%; right:10%;}
+}
+.commentEntry{
+	background-color: rgba(120,120,120,.8);
+	padding: 15px;
+	border-radius:15px;
+	text-align:center;
+}
+.footer{
+	background-color: rgba(229,148,0,.88);
+	padding: 15px;
+	border-radius:5px;
+	text-align:center;
+	top:100%;
+}
+
+
+
+
+
+
+.jumbotron{
+	background-color:rgba(229,148,0,.88);
+}
+
+.navbar-brand{
+	color: #ffffff;
+	font-size:1.33em;
+}
+.navbar-custom {
+    background-color: rgba(229,148,0,.88);
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#FFC558;;
+}.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+    border-color: #e7e7e7;
+}
+
+
+#overlay {
+	display:none;
+	position: absolute;
+	z-index: 100;
+	width: 80%;
+    left:10%;
+    right:10%;
+	padding:15px;
+	border-radius:10px;
+    background-color: rgba(120,120,120,.9);
+	-webkit-animation-name: quizz_animation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: quizz_animation;
+    animation-duration: 2s;
+}
